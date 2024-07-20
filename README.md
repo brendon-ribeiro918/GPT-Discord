@@ -1,21 +1,10 @@
 <h1 align="center"> GPT Discord</h1>
 <p align="center">An all-in-one GPT-3 interface for Discord. ChatGPT-style conversations, image generation, AI-moderation, custom indexes/knowledgebase, youtube summarizer, and more!</p> 
 
-[![Docker](https://github.com/Kav-K/GPTDiscord/actions/workflows/build-and-publish-docker.yml/badge.svg)](https://github.com/Kav-K/GPTDiscord/actions/workflows/build-and-publish-docker.yml)  
-[![PyPi](https://github.com/Kav-K/GPTDiscord/actions/workflows/pypi_upload.yml/badge.svg)](https://github.com/Kav-K/GPTDiscord/actions/workflows/pypi_upload.yml)  
-[![Build](https://github.com/Kav-K/GPTDiscord/actions/workflows/build.yml/badge.svg)](https://github.com/Kav-K/GPTDiscord/actions/workflows/build.yml)  
-[![PyPi version](https://badgen.net/pypi/v/gpt3discord/)](https://pypi.org/project/gpt3discord)  
-[![Latest release](https://badgen.net/github/release/Kav-K/GPTDiscord)](https://github.com/Kav-K/GPTDiscord/releases)  
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Kav-K/GPTDiscord/graphs/commit-activity)  
-[![GitHub license](https://img.shields.io/github/license/Kav-K/GPTDiscord)](https://github.com/Kav-K/GPTDiscord/blob/main/LICENSE)  
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)  
-
 # Overview
 An all-in-one, robust OpenAI Integration for Discord. This bot is on feature parity with ChatGPT web and even does some things slightly better! 
 
 We support everything from **multi-modality image understanding**, **code interpretation**, advanced data analysis, Q&A on **your own documents**, **internet-connected chat** with Wolfram Alpha and Google access, **AI-moderation**, **image generation** with DALL-E, and much more! 
-
-**BOT SETUP SUPPORT AND DEMO SERVER:** [Join Here](https://discord.gg/WvAHXDMS7Q)
 
 Featuring code execution and environment manipulation by [E2B](https://e2b.dev)
 
@@ -31,21 +20,6 @@ We are migrating towards using [QDRANT](https://qdrant.tech/) as our vector data
 - [Screenshots](#Screenshots)
 - [Features](#Features)
 - [Commands](#Commands)
-- [Installation](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/INSTALLATION.md)  
--- [DigitalOcean Droplet Guide](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/DROPLET-GUIDE.md) 
--- [OpenAI Token Guide](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/OPENAI-GUIDE.md)
-- [Internet Connected Chat](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/INTERNET-CONNECTED-CHAT.md)
-- [Code Interpreter / Advanced Data Analysis](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/CODE-INTERPRETER.md)
-- [Permanent Memory](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/PERMANENT-MEMORY.md)    
-- [Multi-Modality](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/MULTI-MODALITY.md)
-- [AI-Search](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/AI-SEARCH.md)  
-- [Custom Indexes](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/CUSTOM-INDEXES.md)  
-- [AI-Moderation](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/AI-MODERATION.md)  
-- [Translations](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/TRANSLATIONS.md)  
-- [User-Input API Keys](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/USER-INPUT-KEYS.md)  
-- [Permissions](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/PERMISSIONS.md)  
-- [Language Detection](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/LANGUAGE-DETECTION.md)
-- [Other Minor Features](https://github.com/Kav-K/GPTDiscord/blob/main/detailed_guides/OTHER-MINOR-FEATURES.md)  
 
 # Screenshots
 <p align="center">
@@ -138,13 +112,5 @@ These commands are grouped, so each group has a prefix, but you can easily tab c
 - `/system delete-conversation-threads` - Delete all threads related to this bot across all servers.
 - `/system local-size` - Get the size of the local `/dalleimages` folder.
 - `/system clear-local` - Delete all the contents of `/dalleimages`.
-
-# Step-by-Step Guides for GPTDiscord  
-[**GPTDiscord Guides**](https://github.com/Kav-K/GPTDiscord/tree/main/detailed_guides)  
-If you follow the link above, you will find detailed step-by-step guides that will help you install and set up your GPTDiscord bot and its features quickly and easily. If you encounter any issues or have suggestions for improving the guides, you can join the [**Discord Server**](https://discord.gg/WvAHXDMS7Q), and we will try to help you. Please keep in mind that the maintainers are volunteers and will try to assist you on their schedule.  
-*The number and content of the guides are constantly adapted to current requirements.*
-
-# Our Amazing Contributors ⭐  
-[![Contributors](https://contrib.rocks/image?repo=Kav-K/GPTDiscord)](https://github.com/Kav-K/GPTDiscord)
 
 Improve this markdown, correct any spelling errors, and let me know what you change.
